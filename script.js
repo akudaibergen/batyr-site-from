@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Если нет ID пользователя, перенаправляем на главную страницу
   if (!userId) {
-    window.location.href = 'index.html';
+    window.location.href = 'profile.html';
     return;
   }
 
