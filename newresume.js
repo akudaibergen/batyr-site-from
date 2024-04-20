@@ -58,7 +58,7 @@ function sendData(event) {
    };
 
   // Send data to API endpoint using fetch
-  fetch('http://localhost:8080/api/users', {
+  fetch('http://78.40.108.115:8080/api/users', {
       method: 'POST',
       headers: {
           'Content-Type': 'application/json',

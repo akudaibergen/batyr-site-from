@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // Загружаем информацию о пользователе с помощью fetch
-  fetch(`http://localhost:8080/api/users/${userId}`)
+  fetch(`http://78.40.108.115:8080/api/users/${userId}`)
     .then(response => response.json())
     .then(responseData => {
         // Проверяем, что тип запроса успешный

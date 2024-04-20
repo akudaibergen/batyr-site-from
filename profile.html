@@ -13,7 +13,7 @@
     document.addEventListener('DOMContentLoaded', function() {
       const catalogContainer = document.getElementById('catalogContainer');
 
-      fetch('http://localhost:8080/api/users')
+      fetch('http://78.40.108.115:8080/api/users')
               .then(response => {
                 if (!response.ok) {
                   throw new Error('Network response was not ok');
